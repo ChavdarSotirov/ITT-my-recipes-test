@@ -1,0 +1,118 @@
+  * {
+      margin: 0;
+  }
+
+  nav {
+      height: 100px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      gap: 15px;
+      background-color: #fdc48d;
+  }
+
+  .img-header {
+      width: 60px;
+      height: 60px;
+  }
+
+  #results {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+
+  .recipe {
+      border: darkslategray 2px solid;
+      width: 20px;
+      height: 250px;
+      flex-basis: 21%;
+      margin: 20px 10px;
+      text-align: center;
+  }
+
+  footer {
+      height: 80px;
+      text-align: center;
+      background-color: coral;
+  }
+
+  p {
+      padding-top: 16px;
+  }
+
+  h2 {
+      margin-top: 20px;
+  }
+
+  button {
+      margin-top: 20px;
+  }
+
+  img {
+      left: 0px;
+      right: 0px;
+      width: auto;
+      height: 50px;
+  }
+
+  #create-recipe {
+      display: flex;
+      flex-direction: column;
+      width: 350px;
+  }
+
+  .create {
+      margin-left: 250%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+  }
+
+  .butt-width {
+      width: 177px;
+  }
+
+  a {
+      width: 80px;
+      height: 40px;
+      color: black;
+      border-radius: 10px;
+      border: black 2px solid;
+      text-align: center;
+      text-decoration: none;
+      vertical-align: bottom;
+  }
+
+  a:hover {
+      width: 80px;
+      height: 40px;
+      color: white;
+      background-color: firebrick;
+      border-radius: 10px;
+      border: firebrick 2px solid;
+      text-align: center;
+      text-decoration: none;
+  }
+
+  .error,
+  #regError {
+      color: red;
+      font-weight: bold;
+  }
+
+  .form {
+      display: flex;
+      flex-direction: column;
+      width: 500px;
+      margin: 0 auto;
+      border: 3px solid orange;
+      border-radius: 20px;
+      padding: 16px;
+      gap: 8px;
+  }
+
+  #loginPage,
+  #registerPage {
+      padding: 10px 0px;
+  }
